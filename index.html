@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>E.M Abadi - Sistem Informasi Pelayanan Sedot Limbah</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Icon Title -->
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+        <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
+        </div>
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="me-3"></i>E.M ABADI</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Beranda</a>
+                        <a href="#about" class="nav-item nav-link">Tentang Kami</a>
+                        <a href="#services" class="nav-item nav-link">Pelayanan</a>
+                        <a href="#projects" class="nav-item nav-link">Project Kami</a>
+                        <a href="#testi" class="nav-item nav-link">Ulasan</a>
+                    </div>
+                    <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        <a href="https://api.whatsapp.com/send/?phone=6281231196534&text=Halo%20kak%2C%20saya%20ingin%20memesan%20jasa%20sedot%20limbah%20E.M%20Abadi!"
+                            class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0">Hubungi
+                            Kami
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Carousel Start -->
+    <div class="header-carousel owl-carousel">
+        <div class="header-carousel-item">
+            <div class="header-carousel-item-img-1">
+                <img src="img/carousel1.jpg" class="img-fluid w-100" alt="Image">
+            </div>
+            <div class="carousel-caption">
+                <div class="carousel-caption-inner text-start p-3">
+                    <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                        data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">E.M ABADI</h1>
+                    <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                        style="animation-delay: 1.5s;">Apakah Anda mencari layanan sedot limbah yang andal, profesional,
+                        dan efisien? E.M Abadi hadir untuk memenuhi kebutuhan Anda dengan layanan unggulan yang tak
+                        tertandingi.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated"
+                        data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Tentang
+                        Kami</a>
+                    <a class="btn btn-dark rounded-pill py-3 px-5 mb-4 fadeInUp animate__animated"
+                        data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Hubungi
+                        Kami</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-carousel-item mx-auto">
+            <div class="header-carousel-item-img-2">
+                <img src="img/carousel2.jpg" class=" img-fluid w-100" alt="Image">
+            </div>
+            <div class="carousel-caption">
+                <div class="carousel-caption-inner text-center p-3">
+                    <h1 class="display-1 text-capitalize text-white mb-4">E.M ABADI</h1>
+                    <p class="mb-5 fs-5">Kami berkomitmen untuk menjaga kebersihan dan kesehatan lingkungan Anda dengan
+                        teknologi terkini dan tim berpengalaman. Jadikan rumah atau bisnis Anda lebih bersih dan nyaman
+                        dengan layanan sedot limbah terbaik dari E.M Abadi.
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Tentang Kami</a>
+                    <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div id="about" class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img src="img/gambar1.jpg" class="img-fluid w-100 rounded-top bg-white" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <h4 class="text-primary">Tentang Kami</h4>
+                    <h1 class="display-5 mb-4">Sedot Limbah Terpercaya</h1>
+                    <p class="text ps-4 mb-4">E.M Abadi adalah bisnis yang berdedikasi untuk menyediakan layanan sedot
+                        limbah yang profesional dan terpercaya. Kami memahami pentingnya menjaga lingkungan yang bersih
+                        dan sehat, baik untuk tempat tinggal maupun area bisnis Anda. Dengan pengalaman bertahun-tahun
+                        di industri ini, kami telah melayani berbagai klien dengan beragam kebutuhan, dari rumah tangga
+                        hingga institusi besar.
+                    </p>
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-lg-6 col-xl-5">
+                            <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i>Limbah Rumah
+                                Tangga</p>
+                            <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i>Limbah
+                                Industri</p>
+                        </div>
+                        <div class="col-lg-6 col-xl-7">
+                            <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Limbah Septic
+                                Tank
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row g-4 text-center align-items-center justify-content-center">
+                        <div class="col-sm-4">
+                            <div class="bg-primary rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-dark"
+                                        data-toggle="counter-up">50</span>
+                                    <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="text-white mb-0">Pelayanan Selesai</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="bg-dark rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-white"
+                                        data-toggle="counter-up">5</span>
+                                    <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">Tahun Beroperasi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="bg-primary rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">5</span>
+                                    <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="text-white mb-0">Anggota</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Services Start -->
+    <div id="services" class="container-fluid service py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h4 class="text-primary">Pelayanan Kami</h4>
+                <h1 class="display-4">Berbagai Jenis Limbah Kami Layani</h1>
+            </div>
+            <div class="row g-4 justify-content-center text-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded">
+                        <div class="service-img">
+                            <img src="img/pelayanan1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="h4 mb-4 d-inline-flex text-start"><i
+                                        class="fas fa-home fa-2x me-2"></i>Sedot Limbah Rumah Tangga</a>
+                                <p class="mb-4">E.M Abadi tahu bahwa rumah bersih dan sehat membuat keluarga bahagia.
+                                    Layanan kami dirancang khusus untuk menjaga sistem pembuangan limbah rumah Anda
+                                    tetap optimal. Dengan teknologi terbaru dan tim profesional, kami siap menangani
+                                    kebutuhan limbah rumah tangga Anda dengan cepat dan efisien. Hubungi E.M Abadi untuk
+                                    layanan yang andal dan terpercaya!.
+                                </p>
+                                <a class="btn btn-light rounded-pill py-2 px-4">Aktif</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded">
+                        <div class="service-img">
+                            <img src="img/pelayanan2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="h4 mb-4 d-inline-flex text-start"><i
+                                        class="fas fa-industry fa-2x me-2"></i>Sedot Limbah Industri</a>
+                                <p class="mb-4">Jangan biarkan limbah industri mengganggu operasional dan
+                                    kesehatan lingkungan Anda. E.M Abadi menawarkan layanan sedot limbah yang cepat,
+                                    dan profesional dengan tim berpengalaman. Hubungi
+                                    segera untuk layanan sedot limbah industri yang terjangkau. Kami,
+                                    menjaga kebersihan lingkungan kerja Anda untuk operasional dan
+                                    kenyamanan.
+                                </p>
+                                <a class="btn btn-light rounded-pill py-2 px-4">Aktif</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded">
+                        <div class="service-img">
+                            <img src="img/pelayanan3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="h4 mb-4 d-inline-flex text-start"><i
+                                        class="fas fa-truck-pickup fa-2x me-2"></i>Sedot Limbah Septic Tank</a>
+                                <p class="mb-4">Jangan biarkan septik tank penuh merusak kenyamanan dan kesehatan
+                                    lingkungan Anda. E.M Abadi menawarkan layanan sedot limbah septik tank yang cepat,
+                                    aman, dan profesional. Kami pastikan
+                                    septik tank Anda bersih dan berfungsi dengan baik, mencegah masalah yang tidak
+                                    diinginkan. Hubungi kami segera untuk layanan sedot limbah septik tank yang efektif
+                                    dan terjangkau.
+                                </p>
+                                <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item bg-light rounded">
+                        <div class="service-img">
+                            <img src="img/pelayanan4.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="service-content-inner">
+                                <a href="#" class="h4 mb-4 d-inline-flex text-start"><i
+                                        class="fas fa-business-time fa-2x me-2"></i>Sedot Limbah Komersial</a>
+                                <p class="mb-4">Pastikan operasional bisnis Anda tetap lancar dengan pengelolaan limbah
+                                    profesional. E.M Abadi menyediakan solusi sedot limbah yang cepat,
+                                    aman, dan efisien dengan dukungan peralatan canggih dan tenaga ahli berpengalaman.
+                                    E.M Abadi, mitra
+                                    kebersihan lingkungan bisnis Anda untuk kelancaran operasional dan kenyamanan
+                                    pelanggan.
+                                </p>
+                                <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Project Start -->
+    <div id="projects" class="container-fluid project">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h4 class="text-primary">Target Kami</h4>
+                <h1 class="display-4">Kami Memiliki Target Pelayanan</h1>
+            </div>
+            <div class="project-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-img">
+                        <img src="img/project1.jpg" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <div class="project-icon mb-3"><i class="fas fa-chart-line fa-4x text-primary"></i></div>
+                            <p class="text-dark fs-5 mb-3">Kepuasan Konsumen</p>
+                            <a href="#" class="h4">Kepuasan Konsumen Menjadi Salah Satu Target Pelayanan Kami</a>
+                            <div class="pt-4">
+                                <a class="btn btn-light rounded-pill py-3 px-5">Kepuasan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-img">
+                        <img src="img/project2.jpg" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <div class="project-icon mb-3"><i class="fas fa-user-friends fa-4x text-primary"></i></div>
+                            <p class="text-dark fs-5 mb-3">Kenyamanan</p>
+                            <a href="#" class="h4">Target Kami Juga Memberikan Kenyamanan Konsumen </a>
+                            <div class="pt-4">
+                                <a class="btn btn-light rounded-pill py-3 px-5" href="#">Kenyamanan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item h-100">
+                    <div class="project-img">
+                        <img src="img/project3.jpg" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <div class="project-icon mb-3"><i class="fas fa-money-bill fa-4x text-primary"></i></div>
+                            <p class="text-dark fs-5 mb-3">Biaya</p>
+                            <a href="#" class="h4">Kami Memberikan Biaya Pelayanan Yang Cukup Terjangkau</a>
+                            <div class="pt-4">
+                                <a class="btn btn-light rounded-pill py-3 px-5" href="#">Biaya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project End -->
+
+    <!-- Team Start -->
+    <!-- <div class="container-fluid team pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h4 class="text-primary">Our Team</h4>
+                <h1 class="display-4">Our Investa Company Dedicated Team Member</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded">
+                        <div class="team-img">
+                            <img src="img/team-1.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                        class="fas fa-share-alt"></i></a>
+                                <div class="team-icon-share">
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content bg-dark text-center rounded-bottom p-4">
+                            <div class="team-content-inner rounded-bottom">
+                                <h4 class="text-white">Mark D. Brock</h4>
+                                <p class="text-muted mb-0">CEO & Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded">
+                        <div class="team-img">
+                            <img src="img/team-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                        class="fas fa-share-alt"></i></a>
+                                <div class="team-icon-share">
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content bg-dark text-center rounded-bottom p-4">
+                            <div class="team-content-inner rounded-bottom">
+                                <h4 class="text-white">Mark D. Brock</h4>
+                                <p class="text-muted mb-0">CEO & Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded">
+                        <div class="team-img">
+                            <img src="img/team-3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                        class="fas fa-share-alt"></i></a>
+                                <div class="team-icon-share">
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content bg-dark text-center rounded-bottom p-4">
+                            <div class="team-content-inner rounded-bottom">
+                                <h4 class="text-white">Mark D. Brock</h4>
+                                <p class="text-muted mb-0">CEO & Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        <div class="team-img">
+                            <img src="img/team-4.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                        class="fas fa-share-alt"></i></a>
+                                <div class="team-icon-share">
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content bg-dark text-center rounded-bottom p-4">
+                            <div class="team-content-inner rounded-bottom">
+                                <h4 class="text-white">Mark D. Brock</h4>
+                                <p class="text-muted mb-0">CEO & Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div id="testi" class="container-fluid testimonial bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-4 align-items-center">
+                <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="h-100 rounded">
+                        <h4 class="text-primary">Ulasan Konsumen</h4>
+                        <h1 class="display-4 mb-4">Ulasan Beberapa Konsumen</h1>
+                        <p class="mb-4">Mereka telah memberikan tanggapan mengenai pelayanan dari E.M Abadi melalui
+                            interview yang kami lakukan.</p>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="testimonial-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="d-flex">
+                                <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
+                                <p class="mt-4">Harga yang ditawarkan juga sangat terjangkau dibandingkan dengan
+                                    penyedia layanan lain yang pernah saya gunakan sebelumnya. Saya sangat
+                                    merekomendasikan E.M Abadi bagi siapa saja yang membutuhkan layanan sedot limbah
+                                    rumah tangga. Terima kasih, E.M Abadi, atas pelayanan yang luar biasa!.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <div class="my-auto text-end">
+                                    <h5>Himawati Firdaus</h5>
+                                    <p class="mb-0">Konsumen</p>
+                                </div>
+                                <div class="bg-white rounded-circle ms-3">
+                                    <img src="img/foto2.jpg" class="rounded-circle p-2"
+                                        style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
+                                <p class="mt-4">Saya sangat terkesan dengan layanan sedot limbah rumah tangga dari E.M
+                                    Abadi. Tim mereka sangat profesional dan berpengalaman. Mereka datang tepat waktu
+                                    dan membawa semua peralatan yang diperlukan. Selama proses pengerjaan, mereka
+                                    menjaga kebersihan dan kerapihan, serta memastikan tidak ada bau tidak sedap yang
+                                    tertinggal.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <div class="my-auto text-end">
+                                    <h5>Suryan Adi</h5>
+                                    <p class="mb-0">Konsumen</p>
+                                </div>
+                                <div class="bg-white rounded-circle ms-3">
+                                    <img src="img/foto1.jpg" class="rounded-circle p-2"
+                                        style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="d-flex">
+                                <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
+                                <p class="mt-4">Saya sangat puas dengan layanan sedot limbah rumah tangga dari E.M
+                                    Abadi. Tim mereka bekerja dengan sangat profesional dan efisien. Mereka datang
+                                    sesuai jadwal dan membawa peralatan lengkap. Selama pengerjaan, mereka menjaga
+                                    kebersihan area sekitar dan memastikan tidak ada bau yang mengganggu setelah proses
+                                    selesai. Layanan ini benar-benar memenuhi ekspektasi saya.
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <div class="my-auto text-end">
+                                    <h5>Indra Kusuma</h5>
+                                    <p class="mb-0">Konsumen</p>
+                                </div>
+                                <div class="bg-white rounded-circle ms-3">
+                                    <img src="img/foto3.jpg" class="rounded-circle p-2"
+                                        style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">E.M ABADI</h4>
+                            <p class="mb-3">Sistem Informasi Pelayanan Sedot Limbah. Website yang memberikan seputar
+                                informasi sedot limbah yang dinaungi oleh E.M Abadi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Jelajahi</h4>
+                        <a href="index.html"><i class="fas fa-angle-right me-2"></i>Beranda</a>
+                        <a href="#about"><i class="fas fa-angle-right me-2"></i>Tentang Kami</a>
+                        <a href="#services"><i class="fas fa-angle-right me-2"></i>Pelayanan</a>
+                        <a href="#projects"><i class="fas fa-angle-right me-2"></i>Project Kami</a>
+                        <a href="#testi"><i class="fas fa-angle-right me-2"></i>Ulasan</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Info Kontak</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i>Driyorejo, Gresik, Jawa Timur.</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> (+62) 81231196534</a>
+                        <br>
+                        <div class="d-flex align-items-center">
+                            <a class="btn btn-light btn-md-square me-2"
+                                href="https://api.whatsapp.com/send/?phone=6281231196534&text=Halo%20kak%2C%20saya%20ingin%20memesan%20jasa%20sedot%20limbah%20E.M%20Abadi!"><i
+                                    class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Info Pelayanan</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i>Melayani wilayah Gresik, Surabaya, Sidoarjo,
+                            Pasuruan, Malang.</a>
+                        <a href=""><i class="fa fa-clock me-2"></i>Setiap Hari, 24 Jam.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-primary"><i
+                                class="fas fa-copyright text-light me-2"></i>E.M ABADI</a>, All right
+                        reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    Designed By <a class="border-bottom text-primary" href="index.html">E.M Abadi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
